@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Task Manager",
     "version": "1.0",
-    "description": "A simple task manager extension",
+    "description": "A simple todo task manager extension",
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
