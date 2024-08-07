@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Task Manager</h1>
+  <form id="task-form">
+    <input type="text" id="task" placeholder="Task description" required>
+    <input type="date" id="date" required>
+    <select id="priority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button type="button" id="add-task">Add Task</button>
+    <button type="button" id="view-tasks">View Tasks</button>
+  </form>
+  <script src="popup.js"></script>
+</body>
+</html>
